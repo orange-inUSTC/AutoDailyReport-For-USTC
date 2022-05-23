@@ -4,7 +4,7 @@ import numpy as np
 import time
 
 # 行程
-bbox = [137, 238, 293, 258, 18]  # 行程码时间位置(:4)以及字体大小(-1)
+bbox = [454, 828, 788, 876, 18]  # 行程码时间位置(:4)以及字体大小(-1)
 color = (120, 120, 120)
 img = cv2.imread("xcm.jpg")
 shp = (bbox[2] - bbox[0], bbox[3] - bbox[1])
