@@ -4,13 +4,13 @@ import numpy as np
 import time
 
 # 行程
-bbox = [454, 828, 788, 876, 18]  # 行程码时间位置(:4)以及字体大小(-1)
-color = (120, 120, 120)
+bbox = [435, 713, 808, 755, 42]  # 行程码时间位置(:4)以及字体大小(-1)
+color = (148, 147, 152)
 img = cv2.imread("xcm.jpg")
 shp = (bbox[2] - bbox[0], bbox[3] - bbox[1])
 im = Image.new("RGB", (shp[0] + 20, shp[1]), (254, 254, 254))
 dr = ImageDraw.Draw(im)
-font = ImageFont.truetype("arial.ttf", bbox[4])
+font = ImageFont.truetype("HarmonyOS_Sans_Regular.ttf", bbox[4])
 
 dr.text((0, 0), time.strftime("%Y.%m.%d %H:%M:%S", time.localtime()), color,
         font)
