@@ -4,7 +4,7 @@ from Report import Report
 report_data = [
     ("juzhudi", "中校区"),  # 居住地
     ("dorm_building", "z1"),  # 宿舍楼
-    ("dorm", "406"),  # 宿舍号
+    ("dorm", "407"),  # 宿舍号
     ("body_condition", "1"),  # 身体状况 1为正常
     ("body_condition_detail", ""),  # 身体状况详细 正常无需
     ("now_status", "1"),  # 当前状态 1为正常在校园内
@@ -15,9 +15,9 @@ report_data = [
     ("last_touch_sars_detail", ""),  # 具体情况
     ("is_danger", "0"),  # 当前居住地是否为疫情中高风险地区 0为否
     ("is_goto_danger", "0"),  # 14天内是否有疫情中高风险地区旅居史 0为否
-    ("jinji_lxr", "谭芳垠"),  # 紧急联系人
-    ("jinji_guanxi", "父亲"),  # 与本人关系
-    ("jiji_mobile", "18970067049"),  # 紧急联系人电话
+    ("jinji_lxr", "程盈莹"),  # 紧急联系人
+    ("jinji_guanxi", "姐姐"),  # 与本人关系
+    ("jiji_mobile", "15084887615"),  # 紧急联系人电话
     ("other_detail", ""),  # 其他情况说明
 ]
 cross_campus_data = [
