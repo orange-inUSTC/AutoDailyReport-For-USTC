@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 import time
 
-# 行程
+#  行程
 bbox = [435, 713, 808, 755, 42]  # 行程码时间位置(:4)以及字体大小(-1)
 color = (148, 147, 152)
 img = cv2.imread("xcm.jpg")
